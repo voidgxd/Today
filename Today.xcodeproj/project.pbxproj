@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AB93BAF72972B7E60016A54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93BAF62972B7E60016A54E /* AppDelegate.swift */; };
 		AB93BAF92972B7E60016A54E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93BAF82972B7E60016A54E /* SceneDelegate.swift */; };
-		AB93BAFB2972B7E60016A54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93BAFA2972B7E60016A54E /* ViewController.swift */; };
+		AB93BAFB2972B7E60016A54E /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93BAFA2972B7E60016A54E /* ReminderListViewController.swift */; };
 		AB93BAFE2972B7E60016A54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB93BAFC2972B7E60016A54E /* Main.storyboard */; };
 		AB93BB002972B7E60016A54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB93BAFF2972B7E60016A54E /* Assets.xcassets */; };
 		AB93BB032972B7E60016A54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB93BB012972B7E60016A54E /* LaunchScreen.storyboard */; };
+		AB93BB0C2972B8A50016A54E /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93BB0B2972B8A50016A54E /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB93BAF32972B7E60016A54E /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB93BAF62972B7E60016A54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB93BAF82972B7E60016A54E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB93BAFA2972B7E60016A54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB93BAFA2972B7E60016A54E /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		AB93BAFD2972B7E60016A54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB93BAFF2972B7E60016A54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB93BB022972B7E60016A54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB93BB042972B7E60016A54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB93BB0B2972B8A50016A54E /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				AB93BAF62972B7E60016A54E /* AppDelegate.swift */,
 				AB93BAF82972B7E60016A54E /* SceneDelegate.swift */,
-				AB93BAFA2972B7E60016A54E /* ViewController.swift */,
+				AB93BAFA2972B7E60016A54E /* ReminderListViewController.swift */,
+				AB93BB0A2972B8900016A54E /* Models */,
 				AB93BAFC2972B7E60016A54E /* Main.storyboard */,
 				AB93BAFF2972B7E60016A54E /* Assets.xcassets */,
 				AB93BB012972B7E60016A54E /* LaunchScreen.storyboard */,
 				AB93BB042972B7E60016A54E /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		AB93BB0A2972B8900016A54E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB93BB0B2972B8A50016A54E /* Reminder.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB93BAFB2972B7E60016A54E /* ViewController.swift in Sources */,
+				AB93BAFB2972B7E60016A54E /* ReminderListViewController.swift in Sources */,
 				AB93BAF72972B7E60016A54E /* AppDelegate.swift in Sources */,
 				AB93BAF92972B7E60016A54E /* SceneDelegate.swift in Sources */,
+				AB93BB0C2972B8A50016A54E /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
